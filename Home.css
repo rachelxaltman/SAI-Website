@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script') ;
+@font-face
+{
+    font-family : 'Dancing Script';
+    font-style : normal;
+    font-weight : 400;
+    src : url(https://fonts.gstatic.com/s/dancingscript/v14/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup5.ttf) format('truetype');
+}
+
+.fb-page {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+
+.fb-root {
+    float: right;
+}
+
+
+/*
+    Body format
+ */
+.body-content {
+    width: 100%;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/*
+    Creates footer block
+ */
+.footer {
+    width: 100%;
+    background: #00121b;
+    display: block;
+}
+
+/*
+    Logo, slogan and name and all other information in the footer formated
+ */
+.inner-footer {
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+/*
+    Tabs and logo name
+ */
+.footer-items {
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+/*
+    Tabs in footer
+ */
+.footersize li {
+    font-size: 18px;
+}
+
+/*
+    Colony name
+ */
+h1 {
+    margin: 0px 0;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/*
+    Slogan
+ */
+p1 {
+    margin: 0px 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/*
+Contact Us and Quick links footer
+ */
+h2 {
+    margin: 10px 0;
+    color: grey;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+/*
+    Creates the lines underneath Quick Links and Contact us in the footer
+ */
+.border {
+    height: 2px;
+    width: 40px;
+    background: red;
+}
+
+/*
+    Tabs
+ */
+ul {
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding-left: 2% !important;
+}
+
+/*
+Tabs highlighting
+ */
+ul a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/*
+Tabs hoover color
+ */
+ul a:hover {
+    color: red;
+}
+
+/*
+    Formats paragraphs
+ */
+ul li {
+    margin: 10px 0;
+}
+
+/*
+    Formats facebook and instagram logos
+ */
+.social-media {
+    width: 100%;
+    margin-top: 25%;
+    text-align: center;
+}
+
+/*
+Formats facebook and instagram logos
+ */
+.social-media a {
+    text-decoration: none;
+}
+
+/*
+    Formats facebook and instagram logos and makes a circle around the logos
+ */
+.social-media i {
+    height: 15px;
+    width: 15px;
+    margin: 20px 5px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+/*
+    Formats facebook and instagram logos
+ */
+.social-media i:hover {
+    background: grey;
+}
+
+/*
+Formats copyright
+ */
+.footer-bottom {
+    padding: .40%;
+    background: lightgrey;
+    color: #fff;
+    font-size: 12px;
+}
+
+/*
+Screen format for footer
+ */
+@media screen and (max-width: 100px) {
+    .footer-items {
+        width: 10%;
+    }
+}
+
+/*
+Screen format for footer
+ */
+@media screen and (max-width: 200px) {
+    .footer-items {
+        width: 10%;
+    }
+}
+
+/*
+    SAI Crest
+ */
+.footerPic {
+    height: 300px;
+    width: 200px;
+    float: left;
+}
+
+/*
+    Formats envelope and pin
+ */
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/*
+Formats facebook logo
+ */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/*
+Formats instagram logo
+ */
+.fa-instagram {
+    background: pink;
+    color: white;
+}
+
+/*
+Tabs
+ */
+.actives {
+    float: left;
+}
+
+/*
+Formats body
+ */
+body {
+    margin: 0px;
+}
+
+/*
+Formats tabs
+ */
+.tabs {
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+    margin: 0px;
+    padding: 10px 10px;
+}
+
+/*
+Tabs
+ */
+.actives a {
+    font-family: "Lucida Console", Monaco, monospace;
+    letter-spacing: 5px;
+    font-size: 18px;
+    display: block;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*
+Tabs when hovered over
+ */
+.actives a:hover {
+    background-color: lightgrey;
+}
+
+/*
+    Formats address
+ */
+p10 {
+    font-size: 14px;
+    width: 15%;
+    padding: 1px 0px;
+    box-sizing: border-box;
+}
+
+/*
+    Header image
+ */
+.intro {
+    display: block;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    height: auto;
+}
+
+/*
+    Slogan
+ */
+.slog {
+    margin: 0px 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+/*
+Name at the top
+ */
+.headername {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    text-align: center;
+    color:red;
+}
+
+/*
+Information about SAI
+ */
+.welcome {
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+/*
+Formats google calendar
+ */
+.googleCal {
+    border: solid 1px #777;
+    width: 800px;
+    height: 600px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+/*
+Formats important links
+ */
+.importantLinks {
+    font-size: 40px;
+    color: #de0000;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+/*
+Formats important links
+ */
+.websites {
+    text-decoration: none;
+    color: black;
+    margin-left: 20%;
+    margin-right:  20%;
+    font-size: 20px;
+    text-align: center;
+    /*
+   margin-left: 20%;
+   margin-right: 20%;
+*/
+}
+
+/*
+Columns
+ */
+.column {
+    float: left;
+    width: 33%;
+
+}
+
+/*
+Pictures for the carousel
+ */
+.collegiateMembers {
+    height: 100%;
+    width: 100%;
+
+}
+
+/*
+Pictures for the carousel
+ */
+.collegeMemberss{
+    width:100%;
+    height:100%;
+
+}
+
+/*
+Previous Button
+ */
+.cycle-prev{
+    font-size: 25px;
+    color: #de0000;
+    font-family: 'Calibri Light', cursive;
+}
+
+
+
+/*
+Next Button
+ */
+.cycle-next{
+    font-size: 25px;
+    color: #de0000;
+    font-family: 'Calibri Light', cursive;
+}
+
+
+
+/*
+Photo Album
+ */
+.photoAlbum {
+    font-family: 'Dancing Script';
+    font-size: 45px;
+    text-align: center;
+    color:black;
+
+}
+
+
+cycle-1{
+    font-family: 'Dancing Script';
+    font-size: 45px;
+    text-align: center;
+    color:black;
+}
+
+
+.modified{
+    font-size: 15px;
+    text-align: right;
+}
+
